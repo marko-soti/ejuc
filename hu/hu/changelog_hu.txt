@@ -1,0 +1,21 @@
+EJUC - HUNGARY WEBMAP CHANGELOG (REVISION 10 - Y-AXIS ARROW & INCOME LABELS)
+Date: 2026-09-21
+Output: C:\KRTK\ejuc2\webmap\hu\index.html (13.28 MB)
+
+UPDATES & FIXES:
+--------------------------------------------------------------------------------
+1. ROTATED Y-AXIS ARROW ORIENTATION:
+   - Replaced vertical arrow with horizontal arrow 'Vulnerability (Low Income) →' / 'Roma Population Ratio →'.
+   - Due to CSS writing-mode and 180deg rotation, the arrow now physically and intuitively points UPWARDS on the screen.
+
+2. EXPLICIT INCOME TIER ROW LABELS (LAYER 7):
+   - Mapped row labels directly to income categories:
+       * Top row: 'Low Income' (High Vulnerability)
+       * Middle row: 'Moderate'
+       * Bottom row: 'High Income' (Low Vulnerability)
+   - Zero abbreviations: eliminated 'Med' across both rows and columns.
+
+3. LAYER 8 LABELS STANDARDIZATION:
+   - Row labels mapped to: 'High', 'Moderate', 'Low' (Roma Population Ratio).
+   - Column labels mapped to: 'Low', 'Moderate', 'High' (Substandard Housing).
+--------------------------------------------------------------------------------
